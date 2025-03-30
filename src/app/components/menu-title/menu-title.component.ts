@@ -4,7 +4,10 @@ import { Component, OnInit } from '@angular/core';
   selector: 'app-menu-title',
   standalone: false,
   templateUrl: './menu-title.component.html',
-  styleUrl: './menu-title.component.css'
+  styleUrls: [
+    './menu-title.component.css',
+    './menu-title.responsive.component.css'
+  ]
 })
 export class MenuTitleComponent implements OnInit {
   constructor(){}
